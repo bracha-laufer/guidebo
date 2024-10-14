@@ -1,0 +1,22 @@
+{
+  "task_name":"vae2",
+  "dataset":"mnist",
+  "alphas_list": [[0.01], [0.02], [0.03], [0.04]],
+  "delta": 0.1,
+  "N0": 10,
+  "N_total": 15,
+  "lambda_names": ["log_beta", "latent_dim"], 
+  "objs_names": ["MSE" ,"KLD"],
+  "binary_objs": [false],
+  "start_vals": [-2.0, 8],
+  "stop_vals": [2.0, 64],
+  "config0": [-2.0, 16],
+  "init_type": "LHS",
+  "standard_ref_point": [1.0, 100.0],
+  "n_val": 5000,
+  "n_cal": 5000,
+  "checkpoints_dir": "checkpoints_vae",
+  "init_name_res_dir": "all",  
+  "reconstruction_loss": "bce",
+  "n_round": 1
+}

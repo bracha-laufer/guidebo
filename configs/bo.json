@@ -1,0 +1,13 @@
+{
+  "n_trials": 20, 
+  "delta_prime_start_left": [0.01],
+  "delta_prime_start_right": [0.01],
+  "delta_prime_end_left": [0.01],
+  "delta_prime_end_right": [0.01],
+  "length_scale": 1.0,
+  "nu": 2.5,
+  "alpha_gp": 1e-2,
+  "n_restarts_optimizer": 25,
+  "acq_optimizer": "de", 
+  "ref_optimizer": "opt"   
+}
